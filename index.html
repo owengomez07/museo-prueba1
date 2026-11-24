@@ -1,0 +1,996 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>El Santuario de las Esferas</title>
+        <link rel="stylesheet" href="estilos.css">
+    </head>
+    <body>
+        <nav>
+            <a href="#inicio">Inicio</a>
+            <a href="#universo">Universo Ball</a>
+            <a href="#exposiciones">Exposiciones</a>
+            <a href="#galeriaGuerreros">Personajes</a>
+            <a href="#galeriaObjetos">Objetos</a>
+            <a href="#seriesManga">Series, cine y juegos</a>
+            <a href="#horario">Visita</a>
+            <a href="#creditos">Créditos</a>
+        </nav>
+
+        <video class="fondoIzquierdo" autoplay loop muted>
+            <source src="videos/fondoLaterales.mp4" type="video/mp4">
+        </video>
+
+        <video class="fondoDerecho" autoplay loop muted>
+            <source src="videos/fondoLaterales.mp4" type="video/mp4">
+        </video>
+
+        <div class="contenido">
+            <header id="inicio">
+                <div class="portada">
+                    <h1>"Museo el Santuario de las Esferas"</h1>
+                    <p>Recorre el mundo de Dragon Ball, desde la primera búsqueda de las esferas hasta las grandes batallas de los Guerreros Z. Conoce a sus personajes, sus objetos y el paso de la historia del manga a la pantalla.</p>
+                    <img src="imagenes/portada.jpg" alt="Las siete esferas del dragón juntas">
+                </div>
+            </header>
+
+            <br><br><br><br>
+
+            <main>
+                <section id="universo">
+                    <h2>El Universo de Dragon Ball</h2>
+                    <p>Un viaje que arranca con siete esferas capaces de conceder un deseo y acaba por abarcar torneos, planetas y universos enteros.</p>
+                    <div class="galeria">
+                        <figure id="akiraToriyama">
+                            <img src="imagenes/akiraToriyama.jpg" alt="Akira Toriyama">
+                            <figcaption>
+                                <h3>Akira Toriyama</h3>
+                                <p>El mangaka japonés creó Dragon Ball y comenzó a publicarlo en 1984. Su historia mezcla humor, aventura y artes marciales, desde la infancia de Goku hasta la etapa que se adaptó como Dragon Ball Z.</p>
+                            </figcaption>
+                        </figure>
+
+                        <figure id="elComienzoDeLaAventura">
+                            <img src="imagenes/elComienzoDeLaAventura.jpg" alt="El comienzo de la aventura">
+                            <figcaption>
+                                <h3>El comienzo de la aventura</h3>
+                                <p>Bulma conoce a Goku durante la búsqueda de las siete esferas.</p>
+                            </figcaption>
+                        </figure>
+
+                        <figure id="elKamehameha">
+                            <img src="imagenes/elKamehameha.gif" alt="El Kamehameha">
+                            <figcaption>
+                                <h3>El Kamehameha</h3>
+                                <p>Goku aprende esta técnica al observar al Maestro Roshi.</p>
+                            </figcaption>
+                        </figure>
+
+                        <figure id="primerSuperSaiyajin">
+                            <img src="imagenes/primerSuperSaiyajin.gif" alt="Primer Super Saiyajin">
+                            <figcaption>
+                                <h3>Primer Super Saiyajin</h3>
+                                <p>Goku se transforma por primera vez en Namek mientras se enfrenta a Freezer.</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="tarjetasExpo espacio">
+                    <article>
+                        <h3>De los torneos a otros universos</h3>
+                        <p>Las primeras aventuras dan paso a los torneos. En Dragon Ball Z, el grupo viaja a Namek y enfrenta a Freezer, Cell y Majin Buu. Dragon Ball Super amplía la historia a otros universos.</p>
+                    </article>
+                    <article>
+                        <h3>Técnicas y transformaciones</h3>
+                        <ul>
+                        <li>La Genkidama reúne energía del entorno y de otros seres vivos.</li>
+                        <li>Goten y Trunks se unen mediante la danza para formar a Gotenks.</li>
+                        <li>El Ultra Instinto permite reaccionar sin pensar conscientemente cada movimiento.</li>
+                    </ul>
+                    </article>
+                    </div>
+                </section>
+
+                <div id="exposiciones"></div>
+                <section class="salaExpo">
+                    <h2>Exposiciones</h2>
+                    <div class="tarjetasExpo">
+                        <article>
+                            <h3>El Camino de los Guerreros Z</h3>
+                            <p>Conoce a los personajes, sus rivales, las fusiones y sus transformaciones.</p>
+                            <a class="boton" href="#galeriaGuerreros">Ver personajes</a>
+                        </article>
+                        <article>
+                            <h3>Esferas y objetos de Dragon Ball</h3>
+                            <p>Descubre las esferas, los transportes y los objetos que acompañan a los guerreros.</p>
+                            <a class="boton" href="#galeriaObjetos">Ver objetos</a>
+                        </article>
+                        <article>
+                            <h3>Del manga a la pantalla</h3>
+                            <p>Recorre el manga, las series, el cine y los videojuegos.</p>
+                            <a class="boton" href="#seriesManga">Ver series y manga</a>
+                        </article>
+                    </div>
+                </section>
+
+                <section id="galeriaGuerreros">
+                    <h2>El Camino de los Guerreros Z</h2>
+                    <p>"Guerreros Z" es el nombre con el que se suele identificar a Goku y sus aliados en la defensa de la Tierra.</p>
+                    <div class="enlaces" aria-label="Categorías de personajes">
+                        <a class="boton" href="#porSaga">Por Saga</a>
+                        <a class="boton" href="#equipoDeApoyo">Equipo de Apoyo</a>
+                        <a class="boton" href="#androides">Androides</a>
+                        <a class="boton" href="#villanosMemorables">Villanos Memorables</a>
+                        <a class="boton" href="#fusiones">Fusiones</a>
+                        <a class="boton" href="#transformaciones">Transformaciones</a>
+                    </div>
+                    <h3 class="subtitulo" id="porSaga">Personajes por saga</h3>
+                    <p>Las fichas se agrupan por una etapa destacada de cada personaje.</p>
+                    <h4>Dragon Ball original</h4>
+                    <div class="galeria">
+                        <figure id="goku">
+                            <img src="imagenes/goku.jpg" alt="Goku">
+                            <figcaption>
+                                <h4>Goku</h4>
+                                <p>Entrena con Roshi desde niño. Raditz le revela que pertenece al pueblo saiyajin.</p>
+                            </figcaption>
+                        </figure>
+
+                        <figure id="bulma">
+                            <img src="imagenes/bulma.jpg" alt="Bulma">
+                            <figcaption>
+                                <h4>Bulma</h4>
+                                <p>Construye el radar del dragón y convence a Goku de acompañarla en la búsqueda.</p>
+                            </figcaption>
+                        </figure>
+
+                        <figure id="krilin">
+                            <img src="imagenes/krilin.jpg" alt="Krilin">
+                            <figcaption>
+                                <h4>Krilin</h4>
+                                <p>Entrena con Goku y viaja a Namek con Bulma y Gohan.</p>
+                            </figcaption>
+                        </figure>
+
+                        <figure id="maestroRoshi">
+                            <img src="imagenes/maestroRoshi.jpg" alt="Maestro Roshi">
+                            <figcaption>
+                                <h4>Maestro Roshi</h4>
+                                <p>Entrena a Goku y Krilin. Compite como Jackie Chun.</p>
+                            </figcaption>
+                        </figure>
+
+                        <figure id="yamcha">
+                            <img src="imagenes/yamcha.jpg" alt="Yamcha">
+                            <figcaption>
+                                <h4>Yamcha</h4>
+                                <p>De bandido del desierto pasa a entrenar con Roshi y defender la Tierra.</p>
+                            </figcaption>
+                        </figure>
+
+                        <figure id="tenShinHan">
+                            <img src="imagenes/tenShinHan.jpg" alt="Ten Shin Han">
+                            <figcaption>
+                                <h4>Ten Shin Han</h4>
+                                <p>Se enfrenta a Goku en el 22.º Torneo y más tarde frena a Cell con el Kikōhō.</p>
+                            </figcaption>
+                        </figure>
+
+                        <figure id="piccolo">
+                            <img src="imagenes/piccolo.jpg" alt="Piccolo">
+                            <figcaption>
+                                <h4>Piccolo</h4>
+                                <p>Pasa de rival de Goku a mentor de Gohan y aliado de los Guerreros Z.</p>
+                            </figcaption>
+                        </figure>
+
+                        <figure id="chaoz">
+                            <img src="imagenes/chaoz.jpg" alt="Chaoz">
+                            <figcaption>
+                                <h4>Chaoz</h4>
+                                <p>Compañero de Ten Shin Han desde la Escuela de la Grulla. Usa sus poderes psíquicos en los torneos y se une a la defensa de la Tierra ante los saiyajin.</p>
+                            </figcaption>
+                        </figure>
+
+                        <figure id="yajirobei">
+                            <img src="imagenes/yajirobei.jpg" alt="Yajirobei">
+                            <figcaption>
+                                <h4>Yajirobei</h4>
+                                <p>Espadachín que conoce a Goku en Dragon Ball. Durante la batalla contra Vegeta, le corta la cola y pone fin a su transformación en Ozaru.</p>
+                            </figcaption>
+                        </figure>
+
+                        <figure id="abueloGohan">
+                            <img src="imagenes/abueloGohan.jpg" alt="Abuelo Gohan">
+                            <figcaption>
+                                <h4>Abuelo Gohan</h4>
+                                <p>Discípulo del Maestro Roshi, adoptó y crió a Goku cuando era niño. Goku guarda la esfera de cuatro estrellas como recuerdo de él.</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <h4>Saiyajin y Namek</h4>
+                    <div class="galeria">
+                        <figure id="vegeta">
+                            <img src="imagenes/vegeta.jpg" alt="Vegeta">
+                            <figcaption>
+                                <h4>Vegeta</h4>
+                                <p>El príncipe de los saiyajin llega como enemigo y termina defendiendo la Tierra junto a Goku.</p>
+                            </figcaption>
+                        </figure>
+
+                        <figure id="gohan">
+                            <img src="imagenes/gohan.jpg" alt="Gohan">
+                            <figcaption>
+                                <h4>Gohan</h4>
+                                <p>Piccolo lo entrena y Gohan alcanza el Super Saiyajin 2 durante los Juegos de Cell.</p>
+                            </figcaption>
+                        </figure>
+
+                        <figure id="raditz">
+                            <img src="imagenes/raditz.jpg" alt="Raditz">
+                            <figcaption>
+                                <h4>Raditz</h4>
+                                <p>Hermano mayor de Goku. Su llegada revela el origen saiyajin de Goku y obliga a Goku y Piccolo a luchar juntos para rescatar a Gohan.</p>
+                            </figcaption>
+                        </figure>
+
+                        <figure id="bardock">
+                            <img src="imagenes/bardock.jpg" alt="Bardock">
+                            <figcaption>
+                                <h4>Bardock</h4>
+                                <p>Padre de Goku. Las historias sobre Bardock muestran cómo vivían los saiyajin bajo el mando de Freezer antes de la destrucción del planeta Vegeta.</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <h4>De la llegada de Trunks a la saga de Majin Buu</h4>
+                    <div class="galeria">
+                        <figure id="trunksDelFuturo">
+                            <img src="imagenes/trunksDelFuturo.jpg" alt="Trunks del Futuro">
+                            <figcaption>
+                                <h4>Trunks del Futuro</h4>
+                                <p>Viaja al pasado para advertir al grupo sobre los androides.</p>
+                            </figcaption>
+                        </figure>
+                        <figure id="goten">
+                            <img src="imagenes/goten.jpg" alt="Goten">
+                            <figcaption>
+                                <h4>Goten</h4>
+                                <p>El hijo menor de Goku se fusiona con Trunks para formar a Gotenks.</p>
+                            </figcaption>
+                        </figure>
+
+                        <figure id="videl">
+                            <img src="imagenes/videl.jpg" alt="Videl">
+                            <figcaption>
+                                <h4>Videl</h4>
+                                <p>Hija de Mr. Satán y compañera de Gohan. Aprende a volar durante la saga de Majin Buu.</p>
+                            </figcaption>
+                        </figure>
+
+                        <figure id="mrSatan">
+                            <img src="imagenes/mrSatan.jpg" alt="Mr. Satán">
+                            <figcaption>
+                                <h4>Mr. Satán</h4>
+                                <p>Campeón de artes marciales y padre de Videl. Se hace amigo del buen Majin Buu y convence a los habitantes de la Tierra de aportar energía a la Genkidama.</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <h4>Dragon Ball Super y el Torneo del Poder</h4>
+                    <div class="galeria">
+                        <figure id="beerus">
+                            <img src="imagenes/beerus.jpg" alt="Beerus">
+                            <figcaption>
+                                <h4>Beerus</h4>
+                                <p>Dios de la Destrucción del Universo 7. Su búsqueda del Super Saiyajin Dios lo lleva a la Tierra.</p>
+                            </figcaption>
+                        </figure>
+
+                        <figure id="whis">
+                            <img src="imagenes/whis.jpg" alt="Whis">
+                            <figcaption>
+                                <h4>Whis</h4>
+                                <p>Ángel del Universo 7 y acompañante de Bills. Entrena a Goku y Vegeta para que sus movimientos sean más precisos y les muestra el principio detrás del Ultra Instinto.</p>
+                            </figcaption>
+                        </figure>
+
+                        <figure id="jiren">
+                            <img src="imagenes/jiren.jpg" alt="Jiren">
+                            <figcaption>
+                                <h4>Jiren</h4>
+                                <p>El luchador más fuerte del Universo 11 en el Torneo del Poder. Su combate contra Goku lleva a este último a despertar el Ultra Instinto Señal.</p>
+                            </figcaption>
+                        </figure>
+
+                        <figure id="zenoSama">
+                            <img src="imagenes/zenoSama.jpg" alt="Zeno-sama">
+                            <figcaption>
+                                <h4>Zeno-sama</h4>
+                                <p>Rey de Todos y máxima autoridad de los universos. Su interés por los combates da lugar al Torneo del Poder, en el que participan equipos de distintos universos.</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <h3 class="subtitulo" id="androides">Androides</h3>
+                    <h4>Top 4 del museo</h4>
+                    <div class="galeria">
+                        <figure id="cellMax">
+                            <img src="imagenes/cellMax.jpg" alt="Cell Max en Dragon Ball Super: Super Hero">
+                            <figcaption>
+                                <h4>Cell Max</h4>
+                                <p>Encabeza la selección del museo. La Patrulla Roja lo activa antes de que esté listo y, aun así, supera a los Gamma y pone en aprietos a Orange Piccolo. Gohan Bestia consigue derrotarlo al atacar su punto débil.</p>
+                            </figcaption>
+                        </figure>
+
+                        <figure id="gamma1YGamma2">
+                            <img src="imagenes/gamma1YGamma2.jpg" alt="Gamma 1 y Gamma 2">
+                            <figcaption>
+                                <h4>Gamma 1 y Gamma 2</h4>
+                                <p>El Dr. Hedo los creó para la Patrulla Roja. Su velocidad y potencia les permiten enfrentarse a Gohan y Piccolo. Cuando descubren los planes de la organización, ayudan a combatir a Cell Max.</p>
+                            </figcaption>
+                        </figure>
+
+                        <figure id="androide17">
+                            <img src="imagenes/androide17.jpg" alt="Androide 17">
+                            <figcaption>
+                                <h4>Androide 17</h4>
+                                <p>Fue el último participante en pie en el Torneo del Poder. Resistió el combate contra Jiren y, con el deseo de las Súper Esferas, pidió restaurar los universos eliminados.</p>
+                            </figcaption>
+                        </figure>
+
+                        <figure id="androide18">
+                            <img src="imagenes/androide18.jpg" alt="Androide 18">
+                            <figcaption>
+                                <h4>Androide 18</h4>
+                                <p>Combina fuerza, energía inagotable y trabajo en equipo. En el Torneo del Poder combate junto a su hermano y ayuda a eliminar a Ribrianne. El retrato corresponde a su versión del futuro de Trunks.</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                    <h4>Otros androides</h4>
+                    <div class="galeria">
+                        <figure id="androide16">
+                            <img src="imagenes/androide16.jpg" alt="Androide 16">
+                            <figcaption>
+                                <h4>Androide 16</h4>
+                                <p>Androide creado por el Dr. Gero que disfruta de la naturaleza. Su muerte en los Juegos de Cell impulsa a Gohan a alcanzar el Super Saiyajin 2.</p>
+                            </figcaption>
+                        </figure>
+
+                        <figure id="cell">
+                            <img src="imagenes/cell.jpg" alt="Cell">
+                            <figcaption>
+                                <h4>Cell</h4>
+                                <p>Organiza los Juegos de Cell para desafiar a los guerreros de la Tierra.</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                    <h3 class="subtitulo" id="villanosMemorables">Villanos memorables</h3>
+                    <div class="galeria">
+                        <figure id="reyDemonioPiccolo">
+                            <img src="imagenes/reyDemonioPiccolo.jpg" alt="Rey Demonio Piccolo">
+                            <figcaption>
+                                <h4>Rey Demonio Piccolo</h4>
+                                <p>Amenaza la Tierra en Dragon Ball. Antes de morir deja el huevo del que nace Piccolo.</p>
+                            </figcaption>
+                        </figure>
+
+                        <figure id="freezer">
+                            <img src="imagenes/freezer.jpg" alt="Freezer">
+                            <figcaption>
+                                <h4>Freezer</h4>
+                                <p>Busca las esferas de Namek y se enfrenta a Goku.</p>
+                            </figcaption>
+                        </figure>
+
+
+                        <figure id="kidBuu">
+                            <img src="imagenes/kidBuu.jpg" alt="Kid Buu">
+                            <figcaption>
+                                <h4>Kid Buu</h4>
+                                <p>Es la forma pura de Majin Buu. Goku lo derrota con la Genkidama.</p>
+                            </figcaption>
+                        </figure>
+
+                        <figure id="baby">
+                            <img src="imagenes/baby.jpg" alt="Baby">
+                            <figcaption>
+                                <h4>Baby</h4>
+                                <p>En Dragon Ball GT toma el control de Vegeta.</p>
+                            </figcaption>
+                        </figure>
+
+                        <figure id="gokuBlack">
+                            <img src="imagenes/gokuBlack.jpg" alt="Goku Black">
+                            <figcaption>
+                                <h4>Goku Black</h4>
+                                <p>Amenaza el futuro de Trunks y alcanza el Super Saiyajin Rosé.</p>
+                            </figcaption>
+                        </figure>
+
+                        <figure id="zamasu">
+                            <img src="imagenes/zamasu.jpg" alt="Zamasu">
+                            <figcaption>
+                                <h4>Zamasu</h4>
+                                <p>Aprendiz de Kaio-shin del Universo 10. Su desprecio por los mortales lo lleva a ejecutar el Plan Cero Humanos, que amenaza el futuro de Trunks.</p>
+                            </figcaption>
+                        </figure>
+
+                        <figure id="brolyVillano">
+                            <img src="imagenes/brolyVillano.jpg" alt="Broly">
+                            <figcaption>
+                                <h4>Broly</h4>
+                                <p>Es el antagonista principal de la película de 1993. La versión de Dragon Ball Super: Broly (2018) vuelve a contar su historia y lo presenta como un rival de Goku y Vegeta.</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <h3 class="subtitulo" id="fusiones">Fusiones</h3>
+                    <div class="galeria">
+                        <figure id="gotenks">
+                            <img src="imagenes/gotenks.jpg" alt="Gotenks">
+                            <figcaption>
+                                <h4>Gotenks</h4>
+                                <p>Goten y Trunks se fusionan mediante la danza para enfrentar a Majin Buu.</p>
+                            </figcaption>
+                        </figure>
+
+                        <figure id="gogeta">
+                            <img src="imagenes/gogeta.gif" alt="Gogeta">
+                            <figcaption>
+                                <h4>Gogeta</h4>
+                                <p>Goku y Vegeta se unen mediante la danza de la fusión. Gogeta combate a Janemba en Dragon Ball Z: Fusión y a Broly en Dragon Ball Super: Broly.</p>
+                            </figcaption>
+                        </figure>
+
+                        <figure id="vegetto">
+                            <img src="imagenes/vegetto.gif" alt="Vegetto">
+                            <figcaption>
+                                <h4>Vegetto</h4>
+                                <p>Goku y Vegeta se fusionan con los pendientes Pothala. Vegetto aparece en Dragon Ball Z contra Majin Buu y en Dragon Ball Super contra Zamasu fusionado.</p>
+                            </figcaption>
+                        </figure>
+
+                        <figure id="kefla">
+                            <img src="imagenes/kefla.jpg" alt="Kefla">
+                            <figcaption>
+                                <h4>Kefla</h4>
+                                <p>Caulifla y Kale se fusionan con los Pothala durante el Torneo del Poder.</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <h3 class="subtitulo" id="transformaciones">Transformaciones</h3>
+                    <h4>Fases del Super Saiyajin</h4>
+                    <div class="galeria">
+                        <figure id="superSaiyajin">
+                            <img src="imagenes/superSaiyajin.jpg" alt="Goku en Super Saiyajin">
+                            <figcaption>
+                                <h4>Super Saiyajin</h4>
+                                <p>Goku se transforma por primera vez en Namek mientras se enfrenta a Freezer.</p>
+                            </figcaption>
+                        </figure>
+
+                        <figure id="superSaiyajin2">
+                            <img src="imagenes/superSaiyajin2.jpg" alt="Gohan en Super Saiyajin 2">
+                            <figcaption>
+                                <h4>Super Saiyajin 2</h4>
+                                <p>Gohan alcanza esta fase en los Juegos de Cell tras la muerte del Androide 16. Su poder cambia el rumbo del combate y le permite enfrentarse a Cell cuando los demás guerreros ya no pueden detenerlo.</p>
+                            </figcaption>
+                        </figure>
+
+                        <figure id="superSaiyajin3">
+                            <img src="imagenes/superSaiyajin3.jpg" alt="Super Saiyajin 3">
+                            <figcaption>
+                                <h4>Super Saiyajin 3</h4>
+                                <p>Goku muestra esta fase durante la saga de Majin Buu. Se distingue por su larga cabellera dorada.</p>
+                            </figcaption>
+                        </figure>
+
+                        <figure id="superSaiyajin4">
+                            <img src="imagenes/superSaiyajin4.jpg" alt="Super Saiyajin 4">
+                            <figcaption>
+                                <h4>Super Saiyajin 4</h4>
+                                <p>Goku y Vegeta usan esta transformación en Dragon Ball GT.</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <h4>Formas divinas</h4>
+                    <div class="galeria">
+                        <figure id="superSaiyajinDios">
+                            <img src="imagenes/superSaiyajinDios.jpg" alt="Super Saiyajin Dios">
+                            <figcaption>
+                                <h4>Super Saiyajin Dios</h4>
+                                <p>Con el poder de otros saiyajin, Goku logra esta forma de cabello rojo para enfrentar a Beerus en La Batalla de los Dioses.</p>
+                            </figcaption>
+                        </figure>
+
+                        <figure id="superSaiyajinBlue">
+                            <img src="imagenes/superSaiyajinBlue.jpg" alt="Super Saiyajin Blue">
+                            <figcaption>
+                                <h4>Super Saiyajin Blue</h4>
+                                <p>Goku y Vegeta combinan el ki divino con el poder del Super Saiyajin. Ambos muestran esta forma de cabello azul en La Resurrección de Freezer.</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                    <h4>Ultra Instinto</h4>
+                    <p>Compara las dos formas que Goku muestra en el Torneo del Poder.</p>
+                    <div class="galeria">
+                        <figure id="ultraInstintoSenal">
+                            <img src="imagenes/ultraInstintoSenal.jpg" alt="Ultra Instinto Señal">
+                            <figcaption>
+                                <h4>Ultra Instinto Señal</h4>
+                                <p>Goku conserva el cabello oscuro en esta forma, que despierta durante el Torneo del Poder.</p>
+                            </figcaption>
+                        </figure>
+
+                        <figure id="ultraInstinto">
+                            <img src="imagenes/ultraInstinto.gif" alt="Ultra Instinto">
+                            <figcaption>
+                                <h4>Ultra Instinto</h4>
+                                <p>En el Torneo del Poder, Goku alcanza esta forma de cabello plateado frente a Jiren. Su cuerpo puede reaccionar sin que tenga que pensar en cada movimiento.</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <h3 class="subtitulo" id="equipoDeApoyo">Equipo de apoyo</h3>
+                    <p>Los aliados también aportan tecnología, entrenamiento y ayuda para recuperarse. Dendé puede sanar a los heridos y Karin cultiva las semillas del ermitaño.</p>
+                    <div class="galeria">
+                        <figure id="drBrief">
+                            <img src="imagenes/drBrief.jpg" alt="Dr. Brief">
+                            <figcaption>
+                                <h4>Dr. Brief</h4>
+                                <p>Padre de Bulma y fundador de Capsule Corp. Adapta la nave con la que Goku viaja a Namek y le instala un sistema para entrenar con gravedad aumentada.</p>
+                            </figcaption>
+                        </figure>
+
+                        <figure id="mrPopo">
+                            <img src="imagenes/mrPopo.jpg" alt="Mr. Popo">
+                            <figcaption>
+                                <h4>Mr. Popo</h4>
+                                <p>Asistente de Kami-sama en el templo. Ayuda a entrenar a Goku y a preparar a los guerreros para la llegada de Vegeta y Nappa.</p>
+                            </figcaption>
+                        </figure>
+
+                        <figure id="kaiosama">
+                            <img src="imagenes/kaiosama.jpg" alt="Kaiosama">
+                            <figcaption>
+                                <h4>Kaiosama</h4>
+                                <p>Guardián de la región norte del universo. Entrena a Goku en su planeta y le enseña el Kaioken y la Genkidama.</p>
+                            </figcaption>
+                        </figure>
+
+                        <figure id="habitacionDelTiempo">
+                            <img src="imagenes/habitacionDelTiempo.jpg" alt="Habitación del Tiempo">
+                            <figcaption>
+                                <h4>Habitación del Tiempo</h4>
+                                <p>Sala de entrenamiento en el templo de Kami-sama. Un año dentro equivale aproximadamente a un día afuera. Goku y Gohan la usan antes de los Juegos de Cell.</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </section>
+
+                <section id="galeriaObjetos">
+                    <h2>Esferas y objetos de Dragon Ball</h2>
+                    <p>Doce piezas que muestran cómo las esferas, la magia y la tecnología cambian el rumbo de las aventuras.</p>
+                    <h3 class="subtitulo" id="laPrimeraBusqueda">La primera búsqueda</h3>
+                    <div class="galeria">
+                        <figure id="esferaDeCuatroEstrellas">
+                            <img src="imagenes/esferaDeCuatroEstrellas.jpg" alt="Esfera de cuatro estrellas">
+                            <figcaption>
+                                <h4>Esfera de cuatro estrellas</h4>
+                                <p>Goku la guarda como recuerdo de su abuelo.</p>
+                            </figcaption>
+                        </figure>
+
+                        <figure id="radarDelDragon">
+                            <img src="imagenes/radarDelDragon.jpg" alt="Radar del dragón">
+                            <figcaption>
+                                <h4>Radar del dragón</h4>
+                                <p>Bulma construye este dispositivo para localizar las esferas.</p>
+                            </figcaption>
+                        </figure>
+
+                        <figure id="baculoMagico">
+                            <img src="imagenes/baculoMagico.jpg" alt="Báculo mágico">
+                            <figcaption>
+                                <h4>Báculo mágico</h4>
+                                <p>El bastón se extiende cuando Goku se lo ordena.</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                    <h3 class="subtitulo" id="tipoEsferas">Tipos de Esferas</h3>
+                    <div class="galeria">
+                        <figure id="esferasDeLaTierra">
+                            <img src="imagenes/esferasDeLaTierra.jpg" alt="Esferas de la Tierra">
+                            <figcaption>
+                                <h4>Esferas de la Tierra</h4>
+                                <p>Al reunir las siete, se puede invocar a Shenlong para pedir un deseo.</p>
+                            </figcaption>
+                        </figure>
+
+                        <figure id="superEsferasDelDragon">
+                            <img src="imagenes/superEsferas.jpg" alt="Super Esferas del Dragón">
+                            <figcaption>
+                                <h4>Super Esferas del Dragón</h4>
+                                <p>Son esferas de tamaño planetario que aparecen en Dragon Ball Super.</p>
+                            </figcaption>
+                        </figure>
+
+                        <figure id="esferasDeEstrellasNegras">
+                            <img src="imagenes/esferasDeEstrellasNegras.jpg" alt="Esferas de Estrellas Negras">
+                            <figcaption>
+                                <h4>Esferas de Estrellas Negras</h4>
+                                <p>En Dragon Ball GT se dispersan por el espacio y Goku viaja con Pan y Trunks para recuperarlas.</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <h3 class="subtitulo" id="viajesYTransporte">Viajes y transporte</h3>
+                    <div class="galeria">
+                        <figure id="nubeVoladora">
+                            <img src="imagenes/nubeVoladora.jpg" alt="Nube Voladora">
+                            <figcaption>
+                                <h4>Nube Voladora</h4>
+                                <p>Goku usa esta nube amarilla para desplazarse durante sus primeras aventuras.</p>
+                            </figcaption>
+                        </figure>
+
+                        <figure id="capsulasHoiPoi">
+                            <img src="imagenes/capsulasHoiPoi.jpg" alt="Cápsulas Hoi-Poi">
+                            <figcaption>
+                                <h4>Cápsulas Hoi-Poi</h4>
+                                <p>La tecnología de Capsule Corp. permite guardar y transportar objetos como vehículos en cápsulas pequeñas.</p>
+                            </figcaption>
+                        </figure>
+
+                        <figure id="maquinaDelTiempoDeTrunks">
+                            <img src="imagenes/maquinaDelTiempoDeTrunks.jpg" alt="Máquina del tiempo de Trunks">
+                            <figcaption>
+                                <h4>Máquina del tiempo de Trunks</h4>
+                                <p>Permite a Trunks del Futuro viajar al pasado para advertir a los guerreros sobre los androides.</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <h3 class="subtitulo" id="combateYRecuperacion">Combate y recuperación</h3>
+                    <div class="galeria">
+                        <figure id="semillasDelErmitano">
+                            <img src="imagenes/semillasErmitano.jpg" alt="Semillas del ermitaño">
+                            <figcaption>
+                                <h4>Semillas del ermitaño</h4>
+                                <p>Karin cultiva estas semillas que ayudan a los guerreros a recuperarse.</p>
+                            </figcaption>
+                        </figure>
+
+                        <figure id="pendientesPothala">
+                            <img src="imagenes/pendientesPothala.jpg" alt="Pendientes Pothala">
+                            <figcaption>
+                                <h4>Pendientes Pothala</h4>
+                                <p>Pueden fusionar a dos personajes cuando cada uno se coloca un pendiente.</p>
+                            </figcaption>
+                        </figure>
+
+                        <figure id="rastreadorDePoder">
+                            <img src="imagenes/rastreadorDePoder.jpg" alt="Rastreador de poder">
+                            <figcaption>
+                                <h4>Rastreador de poder</h4>
+                                <p>También llamado scouter. Sirve para medir el poder de combate y localizar señales.</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </section>
+
+                <section id="seriesManga">
+                    <h2>Del manga a la pantalla</h2>
+                    <article>
+                        <h3>Cronología de estrenos y publicaciones en Japón</h3>
+                        <ol>
+                        <li>1984 · Manga original de Dragon Ball.</li>
+                        <li>1986 · Anime Dragon Ball.</li>
+                        <li>1989 · Dragon Ball Z.</li>
+                        <li>1996 · Dragon Ball GT.</li>
+                        <li>2009 · Dragon Ball Z Kai.</li>
+                        <li>2015 · Anime y manga de Dragon Ball Super.</li>
+                        <li>2024 · Dragon Ball Daima.</li>
+                    </ol>
+                    </article>
+                    <div class="galeria">
+                        <figure id="dragonBallMangaOriginal">
+                            <img src="imagenes/dragonBallMangaOriginal.jpg" alt="Dragon Ball · Manga original">
+                            <figcaption>
+                                <h3>Dragon Ball · Manga original</h3>
+                                <p>La obra de Akira Toriyama abarca desde la infancia de Goku hasta el final de la saga de Buu.</p>
+                            </figcaption>
+                        </figure>
+
+                        <figure id="dragonBallAnimeOriginal">
+                            <img src="imagenes/dragonBallAnimeOriginal.jpg" alt="Dragon Ball · Anime original">
+                            <figcaption>
+                                <h3>Dragon Ball · Anime original</h3>
+                                <p>Presenta la primera búsqueda de las esferas y los torneos de artes marciales.</p>
+                            </figcaption>
+                        </figure>
+
+                        <figure id="dragonBallZ">
+                            <img src="imagenes/dragonBallZ.jpg" alt="Dragon Ball Z">
+                            <figcaption>
+                                <h3>Dragon Ball Z</h3>
+                                <p>Adapta la vida adulta de Goku y las sagas de Freezer, Cell y Majin Buu.</p>
+                            </figcaption>
+                        </figure>
+
+                        <figure id="dragonBallGt">
+                            <img src="imagenes/dragonBallGt.jpg" alt="Dragon Ball GT">
+                            <figcaption>
+                                <h3>Dragon Ball GT</h3>
+                                <p>Goku viaja con Pan y Trunks. La serie presenta a Baby y el Super Saiyajin 4.</p>
+                            </figcaption>
+                        </figure>
+
+                        <figure id="dragonBallZKai">
+                            <img src="imagenes/dragonBallZKai.jpg" alt="Dragon Ball Z Kai">
+                            <figcaption>
+                                <h3>Dragon Ball Z Kai</h3>
+                                <p>Reedición de Dragon Ball Z con menos escenas añadidas para televisión.</p>
+                            </figcaption>
+                        </figure>
+
+                        <figure id="dragonBallSuperAnime">
+                            <img src="imagenes/dragonBallSuperAnime.jpg" alt="Dragon Ball Super · Anime">
+                            <figcaption>
+                                <h3>Dragon Ball Super · Anime</h3>
+                                <p>Tras la derrota de Majin Buu, el encuentro de Goku con Beerus y Whis introduce el ki divino. La historia sigue con los torneos entre universos y el regreso de Trunks del Futuro para enfrentar a Goku Black y Zamasu. En el Torneo del Poder, el Universo 7 se enfrenta al equipo de Jiren y Goku despierta el Ultra Instinto.</p>
+                            </figcaption>
+                        </figure>
+
+                        <figure id="dragonBallSuperManga">
+                            <img src="imagenes/dragonBallSuperManga.jpg" alt="Dragon Ball Super · Manga">
+                            <figcaption>
+                                <h3>Dragon Ball Super · Manga</h3>
+                                <p>El manga de Dragon Ball Super, dibujado por Toyotarou, comparte varios arcos con el anime, como el de Trunks del Futuro y el Torneo del Poder. Después continúa con historias como la Patrulla Galáctica, donde aparece Moro, y la de Granolah.</p>
+                            </figcaption>
+                        </figure>
+
+                        <figure id="dragonBallDaima">
+                            <img src="imagenes/dragonBallDaima.jpg" alt="Dragon Ball Daima">
+                            <figcaption>
+                                <h3>Dragon Ball Daima</h3>
+                                <p>Goku y sus amigos vuelven a ser pequeños tras un deseo de Gomah. Para recuperar su tamaño, Goku viaja al Reino de los Demonios con Glorio y Panzy y vuelve a usar su báculo mágico.</p>
+                            </figcaption>
+                        </figure>
+
+                        <figure id="galacticPatrol">
+                            <img src="imagenes/galacticPatrol.jpg" alt="Dragon Ball Super: The Galactic Patrol">
+                            <figcaption>
+                                <h4>Dragon Ball Super: The Galactic Patrol</h4>
+                                <p>Toei anunció su producción en enero de 2026. La historia retoma el arco de la Patrulla Galáctica del manga, en el que Goku y Vegeta se enfrentan a Moro.</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                    <article class="espacio" id="introDragonBallZ">
+                        <h3>Cha-La Head-Cha-La</h3>
+                        <p>Fue la primera canción de apertura de Dragon Ball Z en Japón y se utilizó en los episodios 1 al 199. Su ritmo enérgico acompañó las sagas de los Saiyajin, Freezer y Cell.</p>
+                        <video controls preload="metadata" playsinline>
+                            <source src="videos/introDragonBallZ.mp4" type="video/mp4">
+                        </video>
+                        <p><a class="boton" href="https://www.youtube.com/watch?v=cie7scVUdQE" target="_blank"> Ver Intro en YouTube</a></p>
+                    </article>
+
+                    <h3 class="subtitulo" id="dragonBallEnElCine">Dragon Ball en el cine</h3>
+                    <div class="galeria">
+                        <figure id="dragonBallSuperBroly">
+                            <img src="imagenes/dragonBallSuperBroly.jpg" alt="Dragon Ball Super: Broly">
+                            <figcaption>
+                                <h4>Dragon Ball Super: Broly (2018)</h4>
+                                <p>Goku y Vegeta conocen a Broly, un saiyajin criado lejos de su planeta natal. Freezer lo lleva a la Tierra y el combate obliga a los dos rivales a recurrir a Gogeta.</p>
+                            </figcaption>
+                        </figure>
+
+                        <figure id="batallaDioses">
+                            <img src="imagenes/batallaDioses.jpg" alt="Dragon Ball Z: La Batalla de los Dioses (2013)">
+                            <figcaption>
+                                <h4>Dragon Ball Z: La Batalla de los Dioses (2013)</h4>
+                                <p>Bills despierta y llega a la Tierra en busca del Super Saiyajin Dios. La película presenta a Whis y recupera el humor de la serie al reunir al grupo en el cumpleaños de Bulma.</p>
+                            </figcaption>
+                        </figure>
+
+                        <figure id="dragonBallSuperSuperHero">
+                            <img src="imagenes/dragonBallSuperHero.jpg" alt="Dragon Ball Super: Super Hero">
+                            <figcaption>
+                                <h4>Dragon Ball Super: Super Hero (2022)</h4>
+                                <p>La Patrulla Roja reaparece con Gamma 1 y Gamma 2. Piccolo investiga su plan y, junto a Gohan, termina enfrentándose a Cell Max.</p>
+                            </figcaption>
+                        </figure>
+
+
+
+                        <figure id="fusion1995">
+                            <img src="imagenes/fusion1995.jpg" alt="Dragon Ball Z: Fusión (1995)">
+                            <figcaption>
+                                <h4>Dragon Ball Z: Fusión (1995)</h4>
+                                <p>Janemba altera el Otro Mundo. Goku y Vegeta recurren a la danza de la fusión para convertirse en Gogeta y enfrentarlo.</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <h3 class="subtitulo" id="dragonBallEnLosVideojuegos">Dragon Ball en los videojuegos</h3>
+                    <div class="galeria">
+                        <figure id="budokaiTenkaichi3">
+                            <img src="imagenes/budokaiTenkaichi3.jpg" alt="Budokai Tenkaichi 3">
+                            <figcaption>
+                                <h4>Budokai Tenkaichi 3 (2007)</h4>
+                                <p>Juego de 2007 con arenas abiertas en 3D. Permite moverse libremente por el escenario y elegir luchadores de distintas etapas de Dragon Ball.</p>
+                            </figcaption>
+                        </figure>
+
+                        <figure id="dragonBallFighterz">
+                            <img src="imagenes/dragonBallFighterz.jpg" alt="Dragon Ball FighterZ">
+                            <figcaption>
+                                <h4>Dragon Ball FighterZ (2018)</h4>
+                                <p>Juego de 2018 con combates en un plano 2D y gráficos tridimensionales inspirados en el anime. Cada jugador elige tres luchadores que pueden alternar o asistir durante la pelea.</p>
+                            </figcaption>
+                        </figure>
+
+                        <figure id="sparkingZero">
+                            <img src="imagenes/sparkingZero.jpg" alt="Portada de Dragon Ball: Sparking! ZERO">
+                            <figcaption>
+                                <h4>Dragon Ball: Sparking! ZERO (2024)</h4>
+                                <p>Retoma los combates tridimensionales de Budokai Tenkaichi. Los luchadores pueden volar, cambiar de forma y destruir partes de la arena.</p>
+                            </figcaption>
+                        </figure>
+
+                        <figure id="xenoverse2">
+                            <img src="imagenes/xenoverse2.jpg" alt="Dragon Ball Xenoverse 2 (2016)">
+                            <figcaption>
+                                <h4>Dragon Ball Xenoverse 2 (2016)</h4>
+                                <p>Creas a tu propio patrullero del tiempo y visitas momentos conocidos de la serie. Incluye misiones cooperativas y personalización de técnicas y equipo.</p>
+                            </figcaption>
+                        </figure>
+
+                    </div>
+
+                </section>
+
+                <section id="horario">
+                    <h2>Horario</h2>
+                    <table>
+                        <thead>
+                            <tr><th>Días</th><th>Horario</th></tr>
+                        </thead>
+                        <tbody>
+                            <tr><td>Lunes</td><td>Cerrado</td></tr>
+                            <tr><td>Martes a viernes</td><td>10:00 a 17:00</td></tr>
+                            <tr><td>Sábado y domingo</td><td>10:00 a 20:00</td></tr>
+                        </tbody>
+                    </table>
+                </section>
+
+                <section id="ubicacion">
+                    <h2>Ubicación</h2>
+                    <p><strong>Dirección:</strong> Avenida Rancho Seco s/n, colonia Impulsora Popular Avícola, Nezahualcóyotl, Estado de México.</p>
+                    <p><strong>Referencia:</strong> Junto a la FES Aragón</p>
+                    <a class="boton" href="https://www.google.com/maps/search/?api=1&amp;query=FES+Arag%C3%B3n+UNAM" target="_blank">
+                        Ver Dirección en Google Maps
+                    </a>
+                </section>
+
+                <section id="entradas">
+                    <h2>Tipos de entrada</h2>
+                    <ul>
+                        <li><strong>General:</strong> $80 MXN por persona.</li>
+                        <li><strong>Estudiantes:</strong> $40 MXN con credencial vigente.</li>
+                        <li><strong>Infantil:</strong> Gratis para menores de 6 años.</li>
+                    </ul>
+                </section>
+
+                <section id="contacto">
+                    <h2>Contacto</h2>
+                    <p>Correo: <a href="mailto:visitanosesferas@gmail.com">visitanosesferas@gmail.com</a></p>                </section>
+            </main>
+
+            <footer>
+                <h2>Fuentes de información</h2>
+                <ul>
+                    <li><a href="https://www.viz.com/dragon-ball">VIZ · Manga original</a></li>
+                    <li><a href="https://www.viz.com/shonenjump/chapters/dragon-ball-super?locale=en">VIZ · Dragon Ball Super</a></li>
+                    <li><a href="https://en.dragon-ball-official.com/about/dragon_ball_history.html">Dragon Ball Official Site · Cronología</a></li>
+                    <li><a href="https://www.toei-animation.com/catalog/">Toei Animation · Catálogo</a></li>
+                    <li><a href="https://en.dragon-ball-official.com/news/01_3974.html?hl=en-US">Anuncio oficial de The Galactic Patrol</a></li>
+                    <li><a href="https://rpp.pe/cultura/asiapop/dragon-ball-quienes-conforman-los-guerreros-z-ag-noticia-1394004">RPP · Integrantes</a></li>
+                    <li><a href="https://dragonball.fandom.com/es/wiki/Guerreros_Z">Dragon Ball Wiki · Guerreros Z</a></li>
+                    <li><a href="https://en.dragon-ball-official.com/news/01_4375.html">Dragon Ball Official Site · Jiren en Gekishin Squadra</a></li>
+                    <li><a href="https://en.dragon-ball-official.com/news/01_629.html">Dragon Ball Official Site · Ultra Instinto Señal en Xenoverse 2</a></li>
+                </ul>
+
+                <br><br>
+
+                <h2 id="creditos">Créditos de imágenes y videos</h2>
+                <ul>
+                    <li>Portada · <a href="https://i.pinimg.com/736x/88/2c/21/882c2178d1d44e58e70f8fe511325f8b.jpg">i.pinimg.com</a></li>
+                    <li>El comienzo de la aventura · <a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdwU6C83W3nMNsGC-uP3Ppt_fXJyQpny3k1aGeIgnxznzLzteMGUUPl3lJ&amp;s=10">Miniatura alojada por Google</a></li>
+                    <li>El Kamehameha · <a href="https://gifdb.com/images/thumbnail/master-roshi-doing-ki-blast-fryo7c7wvhld8687.gif">GIFDB</a></li>
+                    <li>Primer Super Saiyajin · <a href="https://i.imgur.com/3nriysq.gif">Imgur</a></li>
+                    <li>Goku · <a href="https://static.wikia.nocookie.net/dragonball/images/e/e4/Goku_arrives_colored.PNG/revision/latest?cb=20210204093245">static.wikia.nocookie.net</a></li>
+                    <li>Vegeta · <a href="https://en.dragon-ball-official.com/dragonball/jp/news/2025/12/chara237_1.jpg?_=1795298760">en.dragon-ball-official.com</a></li>
+                    <li>Gohan · <a href="https://static.wikia.nocookie.net/dragonball/images/d/d7/Gohan_%28Kanzenban_vol._27%29.png/revision/latest?cb=20250321073722">static.wikia.nocookie.net</a></li>
+                    <li>Piccolo · <a href="https://i.pinimg.com/originals/d0/ad/e9/d0ade9a441f241606c3a75d13692fd3d.jpg">i.pinimg.com</a></li>
+                    <li>Krilin · <a href="https://i.pinimg.com/originals/a4/bb/c2/a4bbc2900ba336af1e6d7ce1738a69c0.jpg">i.pinimg.com</a></li>
+                    <li>Trunks del Futuro · <a href="https://preview.redd.it/future-trunks-dragon-ball-v0-4g1anupe5jfe1.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=b504cb885881502d0b5b3c79ca5f78ef7ff8a74f">preview.redd.it</a></li>
+                    <li>Goten · <a href="https://i.pinimg.com/originals/ee/37/ab/ee37ab7c4d4baa7845e2422ed4f1cd59.jpg">i.pinimg.com</a></li>
+                    <li>Androide 18 · <a href="https://anime-atlas.com/img/formas/androide-18-version-de-la-linea-temporal-alternativa-d2c8e7.webp">anime-atlas.com</a></li>
+                    <li>Ten Shin Han · <a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREtRcFUd_UCBzhu7bGbxhzmvpWtgooYL1DTYiFKvyCfjty95B5eMPzkeA&amp;s=10">encrypted-tbn0.gstatic.com</a></li>
+                    <li>Maestro Roshi · <a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsr9lPkqoNPfRzmeKXYXLztl7ujBjt0IFzKVc-P1uAAL3zYrzFwoKFWt4&amp;s=10">encrypted-tbn0.gstatic.com</a></li>
+                    <li>Yamcha · <a href="https://static.wikia.nocookie.net/dragonball/images/5/59/Yamcha_DB_Episode_138.png/revision/latest/scale-to-width-down/1200?cb=20250201193345">static.wikia.nocookie.net</a></li>
+                    <li>Androide 17 · <a href="https://i.pinimg.com/736x/e3/14/4c/e3144c378470327902648fd831173477.jpg">i.pinimg.com</a></li>
+                    <li>Rey Demonio Piccolo · <a href="https://i.pinimg.com/736x/fe/7c/26/fe7c263979682d68f90223eaa3b6ca5d.jpg">i.pinimg.com</a></li>
+                    <li>Freezer · <a href="https://i.pinimg.com/736x/49/02/45/4902450fb45c2c6f54c8b6092186d699.jpg">i.pinimg.com</a></li>
+                    <li>Cell · <a href="https://preview.redd.it/whats-the-most-goku-thing-perfect-cell-ever-did-techniques-v0-l2hfklyk2ubg1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=a5873a6c97fbba247bd63e6bcc75eb3c634a62b4">preview.redd.it</a></li>
+                    <li>Kid Buu · <a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9e-rQnVXeE5Syiw2iwejHxVey5jv2A2Lr0X7NVeQ3Bg&amp;s=10">encrypted-tbn0.gstatic.com</a></li>
+                    <li>Baby · <a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdIcsR4D7FFOCJ97KlI1tKKogGsrgmVXfaVyzJSDDVlRPuxh2B1wgSOls&amp;s=10">encrypted-tbn0.gstatic.com</a></li>
+                    <li>Goku Black · <a href="https://i.pinimg.com/736x/68/fe/49/68fe497c3f85d7e1d9e87c75617e50fa.jpg">i.pinimg.com</a></li>
+                    <li>Esfera de cuatro estrellas · <a href="https://radardeldragon.com/wp-content/uploads/2023/12/esfera-del-dragon-4-estrellas-dragon-ball.jpg">radardeldragon.com</a></li>
+                    <li>Radar del dragón · <a href="https://frikipolis.com/wp-content/uploads/2020/04/replica-radar-bolas-de-dragon-dragon-ball-bandai.jpg">frikipolis.com</a></li>
+                    <li>Báculo mágico · <a href="https://i.pinimg.com/originals/5b/36/b2/5b36b2a9ce5ed45d4ce0efabed734c55.jpg">i.pinimg.com</a></li>
+                    <li>Dragon Ball · Manga original · <a href="https://cdn.shopify.com/s/files/1/0695/5712/5440/files/10-Dragon_Ball_1.jpg?v=1754357075">cdn.shopify.com</a></li>
+                    <li>Dragon Ball · Anime original · <a href="https://image.tmdb.org/t/p/w780/1YIJYarVZKH3nq89n1lVAxeVktg.jpg">image.tmdb.org</a></li>
+                    <li>Dragon Ball Z · <a href="https://images.justwatch.com/poster/307480349/s718/dragon-ball-z.jpg">images.justwatch.com</a></li>
+                    <li>Dragon Ball GT · <a href="https://img.lemde.fr/2014/07/10/0/44/512/657/572/0/75/0/ill_4455033_4f57_gt.jpg">img.lemde.fr</a></li>
+                    <li>Dragon Ball Z Kai · <a href="https://picfiles.alphacoders.com/896/thumb-1920-89647.jpg">picfiles.alphacoders.com</a></li>
+                    <li>Dragon Ball Super · Anime · <a href="https://static.wikia.nocookie.net/doblaje/images/2/2a/Dragon_Ball_Super.jpg/revision/latest?cb=20241005051656&amp;path-prefix=es">static.wikia.nocookie.net</a></li>
+                    <li>Dragon Ball Super · Manga · <a href="https://m.media-amazon.com/images/I/81S8xoiksVL._AC_UF1000,1000_QL80_.jpg">m.media-amazon.com</a></li>
+                    <li>Dragon Ball Daima · <a href="https://static.zerochan.net/DRAGON.BALL.DAIMA.full.4277847.jpg">static.zerochan.net</a></li>
+                    <li>Dragon Ball Super: Broly · <a href="https://http2.mlstatic.com/D_NQ_NP_695130-MLM69386620460_052023-O.webp">http2.mlstatic.com</a></li>
+                    <li>Dragon Ball Super: Super Hero · <a href="https://static.wikia.nocookie.net/dragonball/images/c/cb/Cartel_de_Dragon_Ball_Super_Super_Hero_en_Jap%C3%B3n.png/revision/latest/scale-to-width-down/1200?cb=20220302094440&amp;path-prefix=es">static.wikia.nocookie.net</a></li>
+                    <li>Budokai Tenkaichi 3 · <a href="https://m.media-amazon.com/images/I/612IntAW48L.jpg">m.media-amazon.com</a></li>
+                    <li>Dragon Ball FighterZ · <a href="https://store-images.s-microsoft.com/image/apps.9822.14473450919754177.36bfcef2-add7-4018-80cf-3072fa4ee7a5.856a4326-630b-4c2e-8b5b-a9902b66d3b9">store-images.s-microsoft.com</a></li>
+                    <li>Bulma · <a href="https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1f2141be-5689-4bc4-8e58-18014fbd3a05/anim=false,width=800,optimized=true/nkVPKz6d.jpeg">image.civitai.com</a></li>
+                    <li>Videl · <a href="https://i.pinimg.com/originals/8c/e2/b5/8ce2b5b226885f415b990c9cdaec0cf2.jpg">i.pinimg.com</a></li>
+                    <li>Beerus · <a href="https://i.pinimg.com/originals/83/3c/95/833c95423dcccf0417eb1b0388c7a19e.jpg">i.pinimg.com</a></li>
+                    <li>Whis · <a href="https://i.pinimg.com/originals/97/57/a0/9757a0ab3f911cce831951df633c31e9.jpg">i.pinimg.com</a></li>
+                    <li>Jiren · <a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScogl9JlOOeNWd6i2QHGQg9Xg3oHFz8adiOaeLGVgi1w2AGN5LO_4laNg&amp;s=10">encrypted-tbn0.gstatic.com</a></li>
+                    <li>Gotenks · <a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_aLmyBrIqSpyPEVSk6w_7xQRBJOMyQr3ws_Wk1PYluniDjQrktANgel42&amp;s=10">Miniatura alojada por Google</a></li>
+                    <li>Kefla · <a href="https://i.pinimg.com/originals/bc/c4/c6/bcc4c67aaa9f06a63ff829701f50f49f.jpg">i.pinimg.com</a></li>
+                    <li>Super Saiyajin 3 · <a href="https://i.pinimg.com/originals/06/19/f7/0619f76b42db8494f3f9288d84b149c6.jpg">i.pinimg.com</a></li>
+                    <li>Super Saiyajin 4 · <a href="https://i.pinimg.com/originals/ff/8f/d6/ff8fd64840e677e548ca3fd442c5f1ef.jpg">i.pinimg.com</a></li>
+                    <li>Ultra Instinto Señal · <a href="https://wallpapers.com/images/thumbnail/goku-ultra-instinct-pictures-hucg5tbszccpwsnm.jpg">wallpapers.com</a></li>
+                    <li>Ultra Instinto · <a href="https://c.tenor.com/_UZXO45HZ70AAAAd/tenor.gif">Tenor</a></li>
+                    <li>Esferas de la Tierra · <a href="https://i.pinimg.com/originals/d9/cd/aa/d9cdaac7b99e9f10497ae29bfcf89d58.jpg">i.pinimg.com</a></li>
+                    <li>Super Esferas del Dragón · <a href="https://static.wikitide.net/intercriaturaswiki/7/70/Esferas_001_Pagina_de_JaviMs_2.webp">static.wikitide.net</a></li>
+                    <li>Esferas de Estrellas Negras · <a href="https://www.fayerwayer.com/resizer/v2/ZQDOHD3XHBBT7OITVQIX2CNCVU.jpg?smart=true&amp;auth=5db3b28f9bde0ca4a5f2dfdffebe2f61b8d7a8021795f8727ce6a2470a6ca3e5&amp;width=1200&amp;height=675">www.fayerwayer.com</a></li>
+                    <li>Nube Voladora · <a href="https://elcomercio.pe/resizer/v2/LQF7FRZTLNEPTDS3CD5NXEKYFA.jpg?auth=b52e287629ddc793fbcc5678d6bcd2ad8df45c34255b8515f7cdf3adbce2d652&amp;width=1280&amp;height=720&amp;quality=75&amp;smart=true">elcomercio.pe</a></li>
+                    <li>Cápsulas Hoi-Poi · <a href="https://static0.cbrimages.com/wordpress/wp-content/uploads/2021/01/Dragon-Ball-Capsules-1.jpg?q=50&amp;fit=crop&amp;w=825&amp;dpr=1.5">static0.cbrimages.com</a></li>
+                    <li>Máquina del tiempo de Trunks · <a href="https://www.fayerwayer.com/resizer/v2/HT5VVPPPIBAB7NZNW35PHATFZM.jpg?auth=f00c3ae333ae89558567d7660977d72abb5e7846c87e61311b162387befc0705&amp;width=800&amp;height=450">www.fayerwayer.com</a></li>
+                    <li>Semillas del ermitaño · <a href="https://sxhodsrixg8meuri.public.blob.vercel-storage.com/fandom-lore/characters/semillasdelermitao/semillas-del-ermita-o-622e100869a2.jpg">sxhodsrixg8meuri.public.blob.vercel-storage.com</a></li>
+                    <li>Pendientes Pothala · <a href="https://http2.mlstatic.com/D_Q_NP_2X_722297-MLM76993019033_062024-E-aretes-potara-arcillo-goku-vegeta-dragon-ball-fusion-anime.webp">http2.mlstatic.com</a></li>
+                    <li>Rastreador de poder · <a href="https://content.instructables.com/FFV/XSK8/HXG6P2RD/FFVXSK8HXG6P2RD.png?width=270&amp;auto=webp&amp;md=MjAxNC0wNy0xMCAxMTozMTo0My4w">content.instructables.com</a></li>
+                    <li>Chaoz · <a href="https://gbaike-image.cdn.bcebos.com/b2de9c82d158ccbf6c81dbd12c82ab3eb13532faeb9c/b2de9c82d158ccbf6c81dbd12c82ab3eb13532faeb9c_url?x-bce-process=image/format,f_auto">gbaike-image.cdn.bcebos.com</a></li>
+                    <li>Yajirobei · <a href="https://gbaike-image.cdn.bcebos.com/4d086e061d950a7b02089c622b8b75d9f2d3572c6358/4d086e061d950a7b02089c622b8b75d9f2d3572c6358_3_4?x-bce-process=image/format,f_auto">gbaike-image.cdn.bcebos.com</a></li>
+                    <li>Mr. Satán · <a href="https://i.pinimg.com/originals/44/c3/bb/44c3bb6b4e0f9faca2c2c6f7ce14b52a.jpg">i.pinimg.com</a></li>
+                    <li>Dr. Brief · <a href="https://www.nicepng.com/png/detail/169-1695875_brief-padre-de-bulma-dr-brief-dragon-ball.png">www.nicepng.com</a></li>
+                    <li>Mr. Popo · <a href="https://gbaike-image.cdn.bcebos.com/b21bb051f8198618367ad2a4a1b739738bd4b31c48c2/b21bb051f8198618367ad2a4a1b739738bd4b31c48c2_3_4?x-bce-process=image/format,f_auto">gbaike-image.cdn.bcebos.com</a></li>
+                    <li>Kaiosama · <a href="https://i.pinimg.com/736x/bf/99/ae/bf99ae13177fb09dcaa66f91d9937447.jpg">i.pinimg.com</a></li>
+                    <li>Raditz · <a href="https://preview.redd.it/does-it-bother-anyone-else-that-goku-would-wish-back-frieza-v0-rvn5zmvt9gdd1.png?width=782&amp;format=png&amp;auto=webp&amp;s=607b09d07915949b44f098995b1dfc5be51f4342">preview.redd.it</a></li>
+                    <li>Bardock · <a href="https://thumb.wikimedia.org/wikipedia/en/thumb/2/24/BardockSaiyan.jpg/250px-BardockSaiyan.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail">thumb.wikimedia.org</a></li>
+                    <li>Dragon Ball Super: The Galactic Patrol · <a href="https://imagenes2.eltiempo.com/files/image_600_700/uploads/2026/02/02/6980d634d1323.png">imagenes2.eltiempo.com</a></li>
+                    <li>Dragon Ball Z: La Batalla de los Dioses (2013) · <a href="https://images.abandomoviez.net/db/poster/db_posterss_76918.jpg">images.abandomoviez.net</a></li>
+                    <li>Dragon Ball Z: Fusión (1995) · <a href="https://m.media-amazon.com/images/M/MV5BNjIyNGY0OWYtY2JlNS00ODVjLWJiODEtYWNlNWZjNDMzZjUzXkEyXkFqcGc@.jpg">m.media-amazon.com</a></li>
+                    <li>Dragon Ball: Sparking! ZERO (2024) · <a href="https://preview.redd.it/la-portada-del-video-juego-de-dragon-ball-sparking-zero-v0-itxwycx3ck5d1.jpg?width=640&amp;crop=smart&amp;auto=webp&amp;s=c79d75efef5ad0f41fb12083b053e94827cc3cdf">Reddit</a></li>
+                    <li>Dragon Ball Xenoverse 2 (2016) · <a href="https://static0.gamerantimages.com/wordpress/wp-content/uploads/2024/12/mixcollage-12-dec-2024-11-41-pm-6860.jpg?q=49&amp;fit=contain&amp;w=480&amp;dpr=2">static0.gamerantimages.com</a></li>
+                    <li>Akira Toriyama · <a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjgc4Cn1bsoePcPa0i0aDkbFSLvjSS2GieNgtAlrforzONwrWjN9Lm9j0Q&amp;s=10">Miniatura alojada por Google</a></li>
+                    <li>Abuelo Gohan · <a href="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/e04d7c6c-6012-44f7-b315-b1b63efd240f/de80kem-09ffdde4-60ba-4414-8ce0-9d4360c2a203.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiIvZi9lMDRkN2M2Yy02MDEyLTQ0ZjctYjMxNS1iMWI2M2VmZDI0MGYvZGU4MGtlbS0wOWZmZGRlNC02MGJhLTQ0MTQtOGNlMC05ZDQzNjBjMmEyMDMucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.cRQZktCeKvrnfksd51HNsUBKbpQtylftA6dqJwlmROA">images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com</a></li>
+                    <li>Zamasu · <a href="https://gbaike-image.cdn.bcebos.com/8435e5dde71190ef76c63d2519498a16fdfaae51cab4/8435e5dde71190ef76c63d2519498a16fdfaae51cab4_3_4?x-bce-process=image/format,f_auto">gbaike-image.cdn.bcebos.com</a></li>
+                    <li>Broly · <a href="https://m.media-amazon.com/images/M/MV5BNWFiNDE3MDctMTVmYy00MWU1LWIxNTctMzVmM2NmZTFjZjYzXkEyXkFqcGc@.jpg">Imagen alojada en Amazon</a></li>
+                    <li>Zeno-sama · <a href="https://i.pinimg.com/originals/5e/0f/49/5e0f49a8e53ec8b62e21054e123fa0ac.jpg">Pinterest</a></li>
+                    <li>Androide 16 · <a href="https://i.pinimg.com/originals/ad/65/cc/ad65cca5c03525b7bd3510fc806db6dc.jpg">Pinterest</a></li>
+                    <li>Gamma 1 y Gamma 2 · <a href="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/54bdb9fd-4242-45f3-9f33-16cedf47861c/df74ilu-ca590f56-609e-4030-b73e-fa81b7f14736.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiIvZi81NGJkYjlmZC00MjQyLTQ1ZjMtOWYzMy0xNmNlZGY0Nzg2MWMvZGY3NGlsdS1jYTU5MGY1Ni02MDllLTQwMzAtYjczZS1mYTgxYjdmMTQ3MzYucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.Mil2f5-PDRGTukMw3wsmf_NEyrNdaUwozrf4IK_eUQ8">images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com</a></li>
+                    <li>Goku en Super Saiyajin · <a href="https://i.pinimg.com/originals/0f/ec/67/0fec67e28b09bc26222c218ebfdfa11c.jpg">Pinterest</a></li>
+                    <li>Gohan en Super Saiyajin 2 · <a href="https://i.pinimg.com/originals/48/13/8b/48138bf93597dcc767ac2d26eb3b1f9f.jpg">Pinterest</a></li>
+                    <li>Cell Max · <a href="https://i.pinimg.com/originals/9b/45/3a/9b453a13ddf2624f0cddc4f516fb0c5d.jpg">Pinterest</a></li>
+                    <li>Super Saiyajin Dios · <a href="https://wallpaperaccess.com/full/906604.jpg">WallpaperAccess</a></li>
+                    <li>Super Saiyajin Blue · <a href="https://i.pinimg.com/originals/a4/aa/8a/a4aa8a46a0b4b48e429986679291133f.jpg">Pinterest</a></li>
+                    <li>Habitación del Tiempo · <a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrkBNA_pbNIZ8tEPVeCSw-gRE-GHo3OE9K7rgWEFYC-HwyfQNDcwi_JBA&amp;s=10">Miniatura alojada por Google</a></li>
+                    <li>Gogeta · <a href="https://c.tenor.com/G8pONvPofQEAAAAd/tenor.gif">Tenor</a></li>
+                    <li>Vegetto · <a href="https://media.tenor.com/DaySt3nWZnQAAAAM/blu-super-vegito-blu-vegito.gif">Tenor</a></li>
+                    <li>Videos de fondo lateral · <a href="https://preview.redd.it/ga6ff78eg4p41.gif?width=750&amp;format=mp4&amp;s=093734c534f3f19dbb0a4573762716ee28496da9">Reddit</a></li>
+                    <li>Intro "Cha-La Head-Cha-La" · <a href="https://www.youtube.com/watch?v=cie7scVUdQE">YouTube</a></li>
+                </ul>
+            </footer>
+        </div>
+    </body>
+</html>

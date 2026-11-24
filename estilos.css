@@ -1,0 +1,281 @@
+/* Colores y letra general */
+body {
+    margin: 0;
+    background-color: #10192b;
+    color: #f1f4fa;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Contenido central */
+.contenido {
+    display: block;
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+    background-color: #10192b;
+}
+
+main,
+.portada {
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/* Títulos y subtítulos */
+h1 {
+    color: #ffd633;
+}
+
+h2 {
+    color: #ffad58;
+    font-size: 32px;
+}
+
+.subtitulo {
+    color: #ffd98e;
+    font-size: 22px;
+}
+
+.subtitulo,
+.espacio,
+#seriesManga .galeria {
+    margin-top: 24px;
+}
+
+/* Espacio y líneas entre secciones */
+section {
+    margin: 48px 0;
+    padding-bottom: 32px;
+    border-bottom: 1px solid #6a8cbe;
+}
+
+/* Flexbox para el menú, las galerías y los grupos de enlaces */
+nav,
+.tarjetasExpo,
+.galeria,
+.enlaces {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+nav,
+.tarjetasExpo,
+.galeria {
+    justify-content: center;
+}
+
+/* Menú fijo al bajar */
+nav {
+    align-items: center;
+    gap: 10px;
+    padding: 16px;
+    background-color: #382845;
+    position: sticky;
+    top: 0;
+}
+
+nav a {
+    padding: 6px;
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #ffad58;
+}
+
+nav a:hover,
+.boton:hover {
+    text-decoration: underline;
+}
+
+/* Portada */
+.portada {
+    padding-top: 24px;
+    text-align: center;
+}
+
+.portada h1 {
+    font-family: Impact, "Arial Black", sans-serif;
+    font-size: 60px;
+}
+
+.portada p {
+    max-width: 680px;
+    margin: 0 auto 20px;
+}
+
+.portada img {
+    max-width: 850px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+/* Tamaño de las imágenes y del video de la intro */
+img,
+#introDragonBallZ video {
+    display: block;
+    width: 100%;
+}
+
+img {
+    height: auto;
+}
+
+#primerSuperSaiyajin img {
+    height: 250px;
+}
+
+#introDragonBallZ video {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Distribución de las tarjetas */
+.tarjetasExpo,
+.galeria {
+    gap: 16px;
+}
+
+.tarjetasExpo article {
+    flex: 1 1 280px;
+}
+
+.salaExpo .tarjetasExpo article,
+.galeria figure {
+    flex: 1 1 220px;
+}
+
+.galeria figure {
+    min-width: 0;
+    max-width: 320px;
+}
+
+/* Posición del enlace a Exposiciones */
+#exposiciones {
+    position: relative;
+    top: -110px;
+}
+
+/* Fondo de las tarjetas y los créditos */
+article,
+figure,
+footer {
+    background-color: #182640;
+}
+
+/* Forma y espacio interior de las tarjetas */
+article,
+figure {
+    margin: 0;
+    border-radius: 10px;
+}
+
+article,
+figcaption {
+    padding: 14px;
+}
+
+article h3,
+figcaption h3,
+figcaption h4 {
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+/* Descripciones debajo de las imágenes */
+figcaption p {
+    margin: 0;
+    text-align: justify;
+}
+
+/* Subtítulos y encabezados de la sección de personajes */
+#galeriaGuerreros .subtitulo {
+    font-size: 24px;
+    margin-top: 48px;
+    padding-top: 20px;
+    border-top: 1px solid #6a8cbe;
+}
+
+#galeriaGuerreros > h4 {
+    color: #f1f4fa;
+    font-size: 25px;
+    margin-top: 36px;
+    margin-bottom: 16px;
+}
+
+/* Nombres y títulos de las fichas en todas las galerías */
+.galeria figcaption h3,
+.galeria figcaption h4,
+#introDragonBallZ h3 {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 12px;
+}
+
+/* Botones y enlaces */
+.boton {
+    display: inline-block;
+    margin-bottom: 6px;
+    padding: 8px 12px;
+    background-color: #854d35;
+    color: #fff0db;
+    border-radius: 6px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.enlaces {
+    gap: 8px;
+}
+
+footer a,
+#contacto a {
+    color: #ffd633;
+}
+
+/* Tabla de horarios y pie de página */
+table {
+    width: 100%;
+    max-width: 560px;
+    border-collapse: collapse;
+    background-color: #1f3350;
+}
+
+/* Encabezado de la tabla de horarios */
+th {
+    background-color: #4a5f85;
+    color: #ffffff;
+}
+
+th,
+td {
+    padding: 10px;
+    border: 1px solid #7b89a1;
+    text-align: left;
+}
+
+footer {
+    padding: 20px;
+}
+
+/* Videos fijos de los costados */
+.fondoIzquierdo,
+.fondoDerecho {
+    position: fixed;
+    top: 70px;
+    bottom: 0;
+    width: calc((100% - 1100px) / 2);
+    height: calc(100% - 70px);
+    object-fit: cover;
+}
+
+.fondoIzquierdo {
+    left: 0;
+}
+
+.fondoDerecho {
+    right: 0;
+}
