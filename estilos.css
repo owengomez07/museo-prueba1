@@ -279,3 +279,15 @@ footer {
 .fondoDerecho {
     right: 0;
 }
+
+/* Videos laterales en pantallas pequeñas */
+@media (max-width: 1100px) {
+    .contenido {
+        width: 88%;
+    }
+
+    .fondoIzquierdo,
+    .fondoDerecho {
+        width: 6%;
+    }
+}
